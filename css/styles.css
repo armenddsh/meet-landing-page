@@ -79,19 +79,20 @@ body {
   border-radius: 50%;
   position: relative;
   margin-top: 5rem;
-}
-
-.my-10 {
-  margin-top: 10rem;
+  background: #fafafa;
 }
 
 .number::after {
   content: "";
   border: 1px solid lightgrey;
   position: absolute;
-  width: 7rem;
+  width: 68px;
   height: 1px;
-  transform: rotate(90deg) translateY(4rem) translateX(-5rem);
+  transform: rotate(90deg) translateY(39px) translateX(-49px);
+}
+
+.my-10 {
+  margin-top: 10rem;
 }
 
 .title1 {
@@ -111,5 +112,33 @@ body {
 .description2 {
   color: #87879d;
   font-size: 1.6rem;
+  line-height: 2.6rem;
+}
+
+.footer {
+  background-image: radial-gradient(
+      rgba(77, 150, 169, 0.9),
+      rgba(77, 150, 169, 0.9)
+    ),
+    url(../assets/desktop/image-footer.jpg);
+  background-repeat: no-repeat;
+  height: 35rem;
+  background-size: cover;
+  background-position: center;
+  margin-top: -11rem;
+  text-align: center;
+}
+
+.footer .experience {
+  color: #fafafa;
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+  margin-top: 7rem;
+  display: block;
+}
+
+.footer .experience-description {
+  color: #fafafa;
+  font-size: 1.8rem;
   line-height: 2.6rem;
 }
