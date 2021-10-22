@@ -142,3 +142,10 @@ body {
   font-size: 1.8rem;
   line-height: 2.6rem;
 }
+
+@media screen and (min-width: 768px) {
+  .hero {
+    fill: #000;
+    height: 30rem;
+  }
+}
