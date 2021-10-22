@@ -1,0 +1,65 @@
+html {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+}
+
+.peoples {
+}
+
+.hero {
+  fill: #000;
+  height: 17rem;
+}
+
+.hero1 {
+  background: url("../assets/desktop/image-hero-left.png") no-repeat;
+  background-size: contain;
+}
+
+.hero2 {
+  background: url("../assets/desktop/image-hero-right.png") no-repeat;
+  background-size: contain;
+}
+
+.title {
+  font-size: 4rem;
+  line-height: 4.4rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.description {
+  font-size: 2rem;
+  color: #87879d;
+  line-height: 2.6rem;
+}
+
+.btn {
+  font-size: 1.6rem;
+  border-radius: 30px;
+  width: 19.3rem;
+  padding: 1.3rem;
+  border: none;
+}
+
+.download {
+  background: #4d96a9;
+  color: #fff;
+}
+
+.whatisit {
+  background: #855fb1;
+  color: #fff;
+  width: 15rem;
+}
+
+.download > span {
+  color: #8fe3f9;
+}
+
+.gallery img {
+  height: 9rem;
+}
