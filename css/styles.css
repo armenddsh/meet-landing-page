@@ -133,7 +133,6 @@ body {
   color: #fafafa;
   font-size: 3.2rem;
   line-height: 3.6rem;
-  margin-top: 7rem;
   display: block;
 }
 
@@ -143,9 +142,25 @@ body {
   line-height: 2.6rem;
 }
 
+@media screen and (min-width: 375px) {
+  .footer .experience {
+    margin-top: 3rem;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .hero {
     fill: #000;
     height: 30rem;
+  }
+
+  .footer .experience {
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer .experience {
+    margin-top: 0rem;
   }
 }
