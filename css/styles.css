@@ -77,6 +77,21 @@ body {
   border: 1px solid #c7ced6;
   padding: 1.4rem;
   border-radius: 50%;
+  position: relative;
+  margin-top: 5rem;
+}
+
+.my-10 {
+  margin-top: 10rem;
+}
+
+.number::after {
+  content: "";
+  border: 1px solid lightgrey;
+  position: absolute;
+  width: 7rem;
+  height: 1px;
+  transform: rotate(90deg) translateY(4rem) translateX(-5rem);
 }
 
 .title1 {
